@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+    <link rel="javascript" href="java.js">
+    <title>Trabalho modulo 12</title>
+</head>
+<body>
+    <div class="alert alert-primary alert-dismissible">
+    <button class="btn-close" data-bs-dismiss=alert></button>
+    Bem vindo a área de login
+</div>
+<div class="container">
+    <form>
+        <tbody>
+            <label class="form-label" for="Nome">Nome completo</label>
+            <input class="form-control" type="text" id="nome">
+            <label class="form-label" for="telefone">Telefone</label>
+            <input class="form-control" type="tel" id="telefone">
+            <label class="form-label" for="date">Data de nascimento</label>
+            <input class="form-control" type="date" id="date">
+            <label class="form-label" for="email">E-mail</label>
+            <input class="form-control" type="email" id="email">
+        </tbody>
+<div class="container">
+    <input class="form-check-input" type="checkbox" id="aceito-termos">
+    <label class="form-check-label"for="aceito-termos">Li e concordo com os termos do site</label>
+        <div id="button">       
+            <button class="btn btn-primary">Cadastrar</button>
+        </div> 
+    </form>
+    </div>
+</div>   
+<script type="text/javascript">$("#telefone").mask("(00) 0000-00009");</script>
+</body>
+</html>
